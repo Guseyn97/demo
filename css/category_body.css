@@ -1,0 +1,110 @@
+.main_body{
+	/*border:1px solid red;*/
+	background-image: url(../img/test.jpg);
+	height: 100vh;
+	width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_goods{
+	/*border:1px solid red;*/
+	background-image: url(../img/test.jpg);
+/*	height: 100vh;
+*/	width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.t-shirt{
+	background-image: url(../img/logo/tshirt-logo.png);		
+	height:220px;
+	background-repeat:no-repeat;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:inline-block;
+
+	/*width:200px;*/
+}
+
+.t-shirt p {
+	width: 170px;
+    text-align: center;
+    margin-top: 180px;}
+.t-shirt a{
+	color:white;
+}
+.t-shirt a:hover{
+	color:red;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.shirt{
+	background-image: url(../img/logo/shirt-logo.png);
+	height:220px;
+	background-repeat:no-repeat;
+	font-weight: bolder;
+	text-transform:uppercase;
+	display:inline-block;
+	/*width:200px;*/
+}
+.shirt p {
+	width: 170px;
+    text-align: center;
+    margin-top: 180px;
+}
+.shirt a{
+	color:white;
+}
+.shirt a:hover{
+	color:red;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.switer{
+	background-image: url(../img/logo/switter-logo.png);
+	height:220px;
+	background-repeat:no-repeat;
+	font-weight: bolder;
+	text-transform:uppercase;
+	display:inline-block;
+	/*width:200px;*/
+}
+.switer p {
+	width: 170px;
+    text-align: center;
+    margin-top: 180px;
+}
+.switer a{
+	color:white;
+}
+.switer a:hover{
+	color:red;
+	cursor:pointer;
+	text-decoration: none;
+}
+.hudi{
+	background-image: url(../img/logo/hudi-logo-test.png);
+	height:220px;
+	background-repeat:no-repeat;
+	font-weight: bolder;
+	text-transform:uppercase;
+	display:inline-block;
+	/*width:200px;*/
+}
+.hudi p {
+	width: 170px;
+    text-align: center;
+    margin-top: 180px;
+}
+.hudi a{
+	color:white;
+}
+.hudi a:hover{
+	color:red;
+	cursor:pointer;
+	text-decoration: none;
+}
+.cat-body-wrapper{
+	margin-top: 50px;
+}

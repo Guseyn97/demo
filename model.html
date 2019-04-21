@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MODEL</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<style>
+		.main{
+			border:2px solid blue;
+			margin:0 auto;
+			height:800px;
+			width:400px;
+		}
+		.head{
+			background-color: red;
+			height:200px;
+		}
+		.body{
+			/*background-color: blue;*/
+			height:200px;
+		}
+		.body img{
+			display:block;
+			margin:0 auto;
+		}
+		.legs{
+			/*background-color: yellow;*/
+			height: 200px;
+		}
+		.foot{
+			background-color: green;
+			height: 200px;
+		}
+		 button{
+			border-radius:50px;
+			outline: none;
+			cursor:pointer;
+			background-color: #9fbdc5;
+		}
+		.slider_but{
+			position:absolute;
+			margin-top: -130px;
+		}
+		#prev{
+			padding:10px;
+			margin-left:5px;
+		}
+		#next{
+			padding:10px;
+			margin-left:260px;
+		}
+		.legs img{
+			display:block;
+			margin:0 auto;
+		}
+	</style>
+	<script src="js/slider.js " defer></script>
+	<script src="js/jeanssl.js" defer></script>
+</head>
+<body>
+	<div class="model_man col-md-8 col-sm- col-xs-">
+		<div class="main_model col-md-12 col-sm- col-xs-">
+			<a href="">
+				<div class="head col-md-10 col-sm- col-xs-">
+				</div>
+			</a>	
+			<a href="./category_body.html">
+				<div class="body col-md-10 col-sm- col-xs-">
+				</div>
+			</a>
+			<a href="">
+				<div class="leg col-md-10 col-sm- col-xs-">
+				</div>
+			</a>
+			<a href="">
+				<div class="foot col-md-10 col-sm- col-xs-">
+				</div>
+			</a>
+		</div>
+
+	</div>
+	</div>
+	<div class="main col-sm-12 col-md-12 col-xs-12">
+		<div class="head col-sm-12 col-md-12 col-xs-12">
+			
+		</div>
+		<div class="body col-sm-12 col-md-12 col-xs-12" >
+			<img id="ibody" src="img/mt-shirt_1.png" alt="">
+		
+		</div>
+		<div class="slider_but">
+			<div><button id="prev" onclick="prevBody()"><img src="img/slider_img/test4.png" alt=""></button>
+
+			<button id="next" onclick="nextBody()"><img src="img/slider_img/test3.png" alt=""></button></div>
+		</div>
+		<div class="legs">
+			<img id="ilegs" src="img/mjeans_1.png" alt="">
+		</div>
+		<div class="slider_but">
+			<div><button id="prev" onclick="prevLegs()"><img src="img/slider_img/test4.png" alt=""></button>
+
+			<button id="next" onclick="nextLegs()"><img src="img/slider_img/test3.png" alt=""></button></div>
+		</div>
+		<div class="foot"></div>
+	</div>
+	
+</body>
+</html>

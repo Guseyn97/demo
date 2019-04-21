@@ -1,0 +1,35 @@
+
+.model_man{
+			
+				background-image:url(../img/rew.jpg);
+				position: relative;
+				height: 800px;
+				background-repeat-x:no-repeat;
+				background-repeat-y:no-repeat;
+				margin:0 auto;
+			}
+			.main_model{
+				position:absolute;
+			}
+			.head{
+				height: 140px;
+				/*border:1px solid red;*/
+/*				left:20%;
+*/			}
+			.body{
+				height:200px;
+					/*border:1px solid yellow;*/
+					/*left:20%;*/
+			}
+			.leg{
+				height:315px;
+					/*border:1px solid green;*/
+					/*left:20%;*/
+			}
+			.foot{
+				height:55px;
+					/*border:1px solid black;*/
+					/*left:20%;*/
+			}
+
+		
