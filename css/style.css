@@ -35,6 +35,25 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.block1 {
+    position: relative;
+}
+.block1 * {
+	position: relative;
+	z-index: 1;
+}
+.block1:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    opacity: 0.5;
+    border-radius: 8px;
+    width: 60%;
+    height: 120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .block_wrapper {
 	height: 100vh;
 	min-height: 100vh;
@@ -175,7 +194,7 @@ input[type=radio] {
 	margin: 0 auto;
 }
 .add a{
-	margin: 20px 0 0 13%;
+	/*margin: 20px 0 0 13%;*/
 }
 .add_ph{
 	margin: 0 auto;
